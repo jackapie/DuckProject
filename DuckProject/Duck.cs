@@ -39,5 +39,15 @@ namespace DuckProject
         {
             Console.WriteLine("All ducks float, even decoys!");
         }
+
+        //Setting behaviour dynamically
+        public void setFlyBehaviour(FlyBehaviour fb)
+        {
+            flyBehaviour = fb;
+        }
+        public void setQuackBehaviour(QuackBehaviour qb)
+        {
+            quackBehaviour = qb;
+        }
     }
 }

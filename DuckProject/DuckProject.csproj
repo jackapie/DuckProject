@@ -42,11 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FlyRocketPowered.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Duck.cs" />
     <Compile Include="FlyBehaviour.cs" />
     <Compile Include="FlyNoWay.cs" />
     <Compile Include="FlyWithWings.cs" />
+    <Compile Include="ModelDuck.cs" />
     <Compile Include="MuteQuack.cs" />
     <Compile Include="PintailDuck.cs" />
     <Compile Include="Program.cs" />

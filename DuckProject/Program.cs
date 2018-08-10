@@ -14,6 +14,12 @@ namespace DuckProject
             mallard.PerformQuack();
             mallard.PerformFly();
 
+            Duck model = new ModelDuck();
+            model.PerformFly();
+            //Use the setFlyBehaviour function in Duck to set behaviour dynamically
+            model.setFlyBehaviour(new FlyRocketPowered());
+            model.PerformFly();
+
             Console.ReadLine();
         }
 
