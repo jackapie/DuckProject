@@ -10,8 +10,8 @@ namespace DuckProject
     {
         public ModelDuck()
         {
-            flyBehaviour = new FlyNoWay();
-            quackBehaviour = new QuackOutLoud();
+            FlyBehaviour = new FlyNoWay();
+            QuackBehaviour = new QuackOutLoud();
         }
 
         public override void Display()

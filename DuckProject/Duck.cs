@@ -12,8 +12,8 @@ namespace DuckProject
         /// The two reference variables for the behaviour interface types.
         /// All duck subclasses (in the same package) inherit (implement?) these.
         /// </summary>
-        protected FlyBehaviour flyBehaviour;
-        protected QuackBehaviour quackBehaviour;
+        public FlyBehaviour FlyBehaviour { get; set; }
+        public QuackBehaviour QuackBehaviour { get; set; }
 
         //Constructor
         public Duck() { } 
@@ -27,12 +27,12 @@ namespace DuckProject
         /// </summary>
         public void PerformFly()
         {
-            flyBehaviour.Fly();
+            FlyBehaviour.Fly();
         }
 
         public void PerformQuack()
         {
-            quackBehaviour.Quack();
+            QuackBehaviour.Quack();
         }
 
         public void Swim()
@@ -41,13 +41,13 @@ namespace DuckProject
         }
 
         //Setting behaviour dynamically
-        public void setFlyBehaviour(FlyBehaviour fb)
-        {
-            flyBehaviour = fb;
-        }
-        public void setQuackBehaviour(QuackBehaviour qb)
-        {
-            quackBehaviour = qb;
-        }
+       // public void setFlyBehaviour(FlyBehaviour fb)
+       // {
+       //     flyBehaviour = fb;
+       // }
+       // public void setQuackBehaviour(QuackBehaviour qb)
+        //{
+        //    quackBehaviour = qb;
+        //}
     }
 }

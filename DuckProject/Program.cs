@@ -17,7 +17,9 @@ namespace DuckProject
             Duck model = new ModelDuck();
             model.PerformFly();
             //Use the setFlyBehaviour function in Duck to set behaviour dynamically
-            model.setFlyBehaviour(new FlyRocketPowered());
+            // model.setFlyBehaviour(new FlyRocketPowered());
+
+            model.FlyBehaviour = new FlyRocketPowered();
             model.PerformFly();
 
             Console.ReadLine();
