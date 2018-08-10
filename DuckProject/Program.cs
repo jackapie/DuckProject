@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace DuckProject
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Duck mallard = new MallardDuck();
+            mallard.PerformQuack();
+            mallard.PerformFly();
+
+            Console.ReadLine();
         }
+
+       
     }
 }

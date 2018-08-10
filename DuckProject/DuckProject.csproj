@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MallardDuck.cs" />
+    <Compile Include="Duck.cs" />
+    <Compile Include="FlyBehaviour.cs" />
+    <Compile Include="FlyNoWay.cs" />
+    <Compile Include="FlyWithWings.cs" />
+    <Compile Include="MuteQuack.cs" />
+    <Compile Include="PintailDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuackOutLoud.cs" />
+    <Compile Include="QuackBehaviour.cs" />
+    <Compile Include="Squeak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
