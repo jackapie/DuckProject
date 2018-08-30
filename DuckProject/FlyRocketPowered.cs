@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DuckProject
 {
-    public class FlyRocketPowered : FlyBehaviour
+    public class FlyRocketPowered : IFlyBehaviour
     {
         public void Fly()
         {

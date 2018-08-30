@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DuckProject
 {
-    public class MuteQuack : QuackBehaviour
+    public class MuteQuack : IQuackBehaviour
     {
         public void Quack()
         {

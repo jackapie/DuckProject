@@ -12,8 +12,8 @@ namespace DuckProject
         /// The two reference variables for the behaviour interface types.
         /// All duck subclasses (in the same package) inherit (implement?) these.
         /// </summary>
-        public FlyBehaviour FlyBehaviour { get; set; }
-        public QuackBehaviour QuackBehaviour { get; set; }
+        public IFlyBehaviour FlyBehaviour { get; set; }
+        public IQuackBehaviour QuackBehaviour { get; set; }
 
         //Constructor
         public Duck() { } 
